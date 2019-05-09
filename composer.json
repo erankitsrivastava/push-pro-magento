@@ -8,10 +8,10 @@
     ],
     "autoload": {
         "files": [
-            "src/Deity/PushPro/registration.php",
+            "src/Deity/PushPro/registration.php"
         ],
         "psr-4": {
-            "Deity\\PushPro\\": "src/Deity/PushPro",
+            "Deity\\PushPro\\": "src/Deity/PushPro"
         }
     },
     "require": {
