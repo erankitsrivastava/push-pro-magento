@@ -5,10 +5,5 @@ $viewModel = $block->getData('viewModel');
 $pushProNotificationScript = $viewModel->getPushProCodeSnippet();
 ?>
 <?php if ($pushProNotificationScript): ?>
-    <script>
-        window.__pushpro = {
-            swPath: "<?php echo $block->escapeUrl($block->getViewFileUrl('Deity_PushPro::js/sw.js')); ?>",
-        }
-    </script>
     <?php echo /* @noEscape */ $pushProNotificationScript ?>
 <?php endif; ?>
