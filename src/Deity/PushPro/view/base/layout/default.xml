@@ -2,11 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="head.additional">
-            <block name="deity.push_pro" template="Deity_PushPro::push_pro.phtml">
-                <arguments>
-                    <argument name="viewModel" xsi:type="object">Deity\PushPro\ViewModel\PushProSnippet</argument>
-                </arguments>
-            </block>
+            <block class="Deity\PushPro\Block\PushProSnippet" name="deity.push_pro" template="Deity_PushPro::push_pro.phtml" />
         </referenceContainer>
     </body>
 </page>

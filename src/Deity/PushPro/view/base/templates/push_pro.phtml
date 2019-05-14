@@ -1,8 +1,6 @@
 <?php
-/** @var \Magento\Framework\View\Element\Template $block */
-/** @var \Deity\PushPro\ViewModel\PushProSnippet $viewModel */
-$viewModel = $block->getData('viewModel');
-$pushProNotificationScript = $viewModel->getPushProCodeSnippet();
+/** @var \Deity\PushPro\ViewModel\PushProSnippet $block */
+$pushProNotificationScript = $block->getPushProCodeSnippet();
 ?>
 <?php if ($pushProNotificationScript): ?>
     <?php echo /* @noEscape */ $pushProNotificationScript ?>
