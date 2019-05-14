@@ -1,2 +1,1 @@
-# push-pro-magento-module
-Magento Module for Push Pro notifications
+### Deity PushPro Module
