@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Deity\PushPro\Block;
+namespace PushPro\Notifications\Block;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\View\Element\Template;
@@ -9,7 +9,7 @@ use Magento\Framework\View\Element\Template;
 /**
  * Class PushProSnippet
  *
- * @package Deity\PushPro\ViewModel
+ * @package PushPro\Notifications\ViewModel
  */
 class PushProSnippet extends Template
 {

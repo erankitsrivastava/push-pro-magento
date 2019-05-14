@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Deity\PushPro\Controller\Index;
+namespace PushPro\Notifications\Controller\Index;
 
 use Magento\Framework\Controller\ResultFactory;
 
 /**
  * Class Worker
  *
- * @package Deity\PushPro\Controller\Index
+ * @package PushPro\Notifications\Controller\Index
  */
 class Worker extends \Magento\Framework\App\Action\Action
 {

@@ -2,7 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="head.additional">
-            <block class="Deity\PushPro\Block\PushProSnippet" name="deity.push_pro" template="Deity_PushPro::push_pro.phtml" />
+            <block class="PushPro\Notifications\Block\PushProSnippet" name="push_pro.notifications" template="PushPro_Notifications::push_pro.phtml" />
         </referenceContainer>
     </body>
 </page>

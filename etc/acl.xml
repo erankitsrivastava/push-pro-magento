@@ -3,7 +3,7 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Deity_PushPro::config_snippet" title="Push Pro configuration" translate="title" sortOrder="10" />
+                <resource id="PushPro_Notifications::config_snippet" title="Push Pro configuration" translate="title" sortOrder="10" />
             </resource>
         </resources>
     </acl>

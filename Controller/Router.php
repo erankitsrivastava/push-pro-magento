@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Deity\PushPro\Controller;
+namespace PushPro\Notifications\Controller;
 
 use Magento\Framework\App\RequestInterface;
 use Magento\Framework\App\RouterInterface;
@@ -9,7 +9,7 @@ use Magento\Framework\App\RouterInterface;
 /**
  * Class Router
  *
- * @package Deity\PushPro\Controller
+ * @package PushPro\Notifications\Controller
  */
 class Router implements RouterInterface
 {

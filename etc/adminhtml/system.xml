@@ -5,7 +5,7 @@
             <class>separator-top</class>
             <label>Push Pro</label>
             <tab>customer</tab>
-            <resource>Deity_PushPro::config_snippet</resource>
+            <resource>PushPro_Notifications::config_snippet</resource>
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General</label>
                 <field id="snippet" translate="label" type="textarea" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
