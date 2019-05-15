@@ -1,6 +1,4 @@
 <?php
-declare(strict_types=1);
-
 namespace PushPro\Notifications\Controller;
 
 use Magento\Framework\App\RequestInterface;

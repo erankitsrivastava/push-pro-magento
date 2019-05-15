@@ -1,6 +1,4 @@
 <?php
-declare(strict_types=1);
-
 namespace PushPro\Notifications\Block;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -21,7 +19,7 @@ class PushProSnippet extends Template
      *
      * @return string
      */
-    public function getPushProCodeSnippet(): string
+    public function getPushProCodeSnippet()
     {
         return (string)$this->_scopeConfig->getValue(self::SNIPPET_HTML_XML_CONFIG_PATH);
     }
